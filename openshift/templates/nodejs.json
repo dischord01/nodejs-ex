@@ -53,6 +53,11 @@
           "kind": "Service",
           "name": "${NAME}"
         }
+      },
+      "metadata":{
+         "annotations": {
+          "kubernetes.io/tls-acme": "true"
+          }
       }
     },
     {
